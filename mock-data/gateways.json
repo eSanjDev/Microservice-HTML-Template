@@ -1,0 +1,159 @@
+{
+    "draw": 1,
+    "recordsTotal": 15,
+    "recordsFiltered": 15,
+    "data": [
+        {
+            "row_id": 1,
+            "name": "زرین پال",
+            "type": "bank",
+            "currency_supported": [
+                "IRR",
+                "TOMAN"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 2,
+            "name": "زیبال",
+            "type": "bank",
+            "currency_supported": [
+                "IRR"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 3,
+            "name": "ملت",
+            "type": "bank",
+            "currency_supported": [
+                "IRR",
+                "TOMAN"
+            ],
+            "status": "inactive"
+        },
+        {
+            "row_id": 4,
+            "name": "پارسیان",
+            "type": "bank",
+            "currency_supported": [
+                "IRR"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 5,
+            "name": "Stripe",
+            "type": "international",
+            "currency_supported": [
+                "USD",
+                "EUR"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 6,
+            "name": "PayPal",
+            "type": "international",
+            "currency_supported": [
+                "USD",
+                "EUR",
+                "GBP"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 7,
+            "name": "Worldpay",
+            "type": "international",
+            "currency_supported": [
+                "USD",
+                "AUD"
+            ],
+            "status": "inactive"
+        },
+        {
+            "row_id": 8,
+            "name": "Ayden",
+            "type": "international",
+            "currency_supported": [
+                "USD",
+                "EUR",
+                "CAD"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 9,
+            "name": "BitPay",
+            "type": "crypto",
+            "currency_supported": [
+                "BTC",
+                "ETH"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 10,
+            "name": "CoinPayments",
+            "type": "crypto",
+            "currency_supported": [
+                "BTC",
+                "BCH",
+                "ETH"
+            ],
+            "status": "inactive"
+        },
+        {
+            "row_id": 11,
+            "name": "B2BinPay",
+            "type": "crypto",
+            "currency_supported": [
+                "BTC",
+                "XRP",
+                "LTC"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 12,
+            "name": "CoinGate",
+            "type": "crypto",
+            "currency_supported": [
+                "BTC",
+                "ETH",
+                "LTC"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 13,
+            "name": "Perfect Money",
+            "type": "international",
+            "currency_supported": [
+                "USD",
+                "EUR"
+            ],
+            "status": "inactive"
+        },
+        {
+            "row_id": 14,
+            "name": "Square",
+            "type": "international",
+            "currency_supported": [
+                "USD",
+                "CAD"
+            ],
+            "status": "active"
+        },
+        {
+            "row_id": 15,
+            "name": "Venmo",
+            "type": "international",
+            "currency_supported": [
+                "USD"
+            ],
+            "status": "active"
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "draw": 1,
+    "recordsTotal": 20,
+    "recordsFiltered": 20,
+    "data": [
+        {
+            "row_id": 1,
+            "company_name": "اسنپ",
+            "merchant_token": "abc1***********def4",
+            "username": "snappay_user",
+            "gateway_access": ["زرین پال", "ملت", "PayPal"],
+            "default_gateway": "زرین پال",
+            "status": "active"
+        },
+        {
+            "row_id": 2,
+            "company_name": "دیجی‌کالا",
+            "merchant_token": "def4***********ghi8",
+            "username": "digikala_user",
+            "gateway_access": ["زیبال", "Stripe", "CoinPayments"],
+            "default_gateway": "زیبال",
+            "status": "active"
+        },
+        {
+            "row_id": 3,
+            "company_name": "علی‌بابا",
+            "merchant_token": "ghi7***********jkl9",
+            "username": "alibaba_user",
+            "gateway_access": ["پارسیان", "BitPay", "B2BinPay"],
+            "default_gateway": "پارسیان",
+            "status": "inactive"
+        },
+        {
+            "row_id": 4,
+            "company_name": "کافه‌بازار",
+            "merchant_token": "jkl0***********mno5",
+            "username": "cafebazar_user",
+            "gateway_access": ["ملت", "Stripe", "CoinGate"],
+            "default_gateway": "ملت",
+            "status": "active"
+        },
+        {
+            "row_id": 5,
+            "company_name": "فیلیمو",
+            "merchant_token": "mno3***********pqr6",
+            "username": "filimo_user",
+            "gateway_access": ["زرین پال", "PayPal", "Venmo"],
+            "default_gateway": "زرین پال",
+            "status": "active"
+        },
+        {
+            "row_id": 6,
+            "company_name": "آپارات",
+            "merchant_token": "pqr6***********stu1",
+            "username": "aparat_user",
+            "gateway_access": ["زیبال", "Worldpay", "Perfect Money"],
+            "default_gateway": "زیبال",
+            "status": "inactive"
+        },
+        {
+            "row_id": 7,
+            "company_name": "شیپور",
+            "merchant_token": "stu9***********vwx2",
+            "username": "sheypoor_user",
+            "gateway_access": ["پارسیان", "Ayden", "BitPay"],
+            "default_gateway": "پارسیان",
+            "status": "active"
+        },
+        {
+            "row_id": 8,
+            "company_name": "تپسی",
+            "merchant_token": "vwx1***********yzb3",
+            "username": "tapsi_user",
+            "gateway_access": ["ملت", "Perfect Money", "CoinGate"],
+            "default_gateway": "ملت",
+            "status": "active"
+        },
+        {
+            "row_id": 9,
+            "company_name": "دیوار",
+            "merchant_token": "yzb4***********abc2",
+            "username": "divar_user",
+            "gateway_access": ["زیبال", "Ayden", "Venmo"],
+            "default_gateway": "زیبال",
+            "status": "inactive"
+        },
+        {
+            "row_id": 10,
+            "company_name": "پینتاپ",
+            "merchant_token": "abc5***********def6",
+            "username": "pintap_user",
+            "gateway_access": ["زرین پال", "BitPay", "CoinGate"],
+            "default_gateway": "زرین پال",
+            "status": "active"
+        },
+        {
+            "row_id": 11,
+            "company_name": "جابینجا",
+            "merchant_token": "def7***********ghi0",
+            "username": "jobinja_user",
+            "gateway_access": ["ملت", "Perfect Money", "B2BinPay"],
+            "default_gateway": "ملت",
+            "status": "inactive"
+        },
+        {
+            "row_id": 12,
+            "company_name": "الوپیک",
+            "merchant_token": "ghi0***********jkl3",
+            "username": "alopeyk_user",
+            "gateway_access": ["پارسیان", "Stripe", "CoinPayments"],
+            "default_gateway": "پارسیان",
+            "status": "active"
+        },
+        {
+            "row_id": 13,
+            "company_name": "خودرو ۴۵",
+            "merchant_token": "jkl1***********mno4",
+            "username": "khodro45_user",
+            "gateway_access": ["ملت", "PayPal", "Venmo"],
+            "default_gateway": "ملت",
+            "status": "active"
+        },
+        {
+            "row_id": 14,
+            "company_name": "شیک رنتر",
+            "merchant_token": "mno2***********pqr5",
+            "username": "shikrent_user",
+            "gateway_access": ["زیبال", "Worldpay", "BitPay"],
+            "default_gateway": "زیبال",
+            "status": "inactive"
+        },
+        {
+            "row_id": 15,
+            "company_name": "نوبیتکس",
+            "merchant_token": "pqr4***********stu0",
+            "username": "nobitex_user",
+            "gateway_access": ["زرین پال", "Ayden", "CoinGate"],
+            "default_gateway": "زرین پال",
+            "status": "active"
+        },
+        {
+            "row_id": 16,
+            "company_name": "توییتاخ",
+            "merchant_token": "stu7***********vwx5",
+            "username": "twitak_user",
+            "gateway_access": ["ملت", "Perfect Money", "Venmo"],
+            "default_gateway": "ملت",
+            "status": "active"
+        },
+        {
+            "row_id": 17,
+            "company_name": "فلایتیو",
+            "merchant_token": "vwx8***********yzb9",
+            "username": "flightio_user",
+            "gateway_access": ["زیبال", "Stripe", "CoinPayments"],
+            "default_gateway": "زیبال",
+            "status": "inactive"
+        },
+        {
+            "row_id": 18,
+            "company_name": "باسلام",
+            "merchant_token": "yzb6***********abc9",
+            "username": "basalam_user",
+            "gateway_access": ["زرین پال", "PayPal", "CoinGate"],
+            "default_gateway": "زرین پال",
+            "status": "active"
+        },
+        {
+            "row_id": 19,
+            "company_name": "مستر بلیط",
+            "merchant_token": "abc7***********def0",
+            "username": "mrblit_user",
+            "gateway_access": ["ملت", "Worldpay", "B2BinPay"],
+            "default_gateway": "ملت",
+            "status": "active"
+        },
+        {
+            "row_id": 20,
+            "company_name": "تخفیفان",
+            "merchant_token": "def9***********ghi2",
+            "username": "takhfifan_user",
+            "gateway_access": ["زیبال", "BitPay", "CoinGate"],
+            "default_gateway": "زیبال",
+            "status": "inactive"
+        }
+    ]
+}
