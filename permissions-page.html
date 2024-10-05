@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html lang="en"
+      class="light-style layout-compact  layout-menu-fixed     "
+      dir="rtl" data-theme="theme-default"
+      data-assets-path="./assets/" data-base-url="/" data-framework="laravel"
+      data-template="horizontal-menu-theme-default-light">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+
+    <title>
+        مجوز ها |
+        ای سنج
+    </title>
+    <meta name="description" content="ای سنج (esanj) بستری مناسب برای کلیه ارزیابی های  آنلاین روانشناختی اعم از تست های هوش، استعداد، شخصیت شناسی و ... می باشد."/>
+
+    <!-- laravel CRUD token -->
+    <meta name="csrf-token" content="xjDtNJMz8gMcr6IlU2sebmZuNWu0l4BZaLqlUtmH">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico"/>
+
+    <!-- Include Styles -->
+    <!-- $isFront is used to append the front layout styles only on the front layout otherwise the variable will be blank -->
+    <!-- BEGIN: Theme CSS-->
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+<link rel="preload" as="style" href="./build/assets/tabler-icons-XUw5yIc1.css" /><link rel="preload" as="style" href="./build/assets/fontawesome-Cqv41d_a.css" /><link rel="preload" as="style" href="./build/assets/flag-icons-2QKiQDtI.css" /><link rel="stylesheet" href="./build/assets/tabler-icons-XUw5yIc1.css" class="" /><link rel="stylesheet" href="./build/assets/fontawesome-Cqv41d_a.css" class="" /><link rel="stylesheet" href="./build/assets/flag-icons-2QKiQDtI.css" class="" /><!-- Core CSS -->
+<link rel="preload" as="style" href="./build/assets/core-CQJrAt7M.css" /><link rel="preload" as="style" href="./build/assets/theme-default-Cxcx__Ek.css" /><link rel="preload" as="style" href="./build/assets/demo-6u0bvWa0.css" /><link rel="stylesheet" href="./build/assets/core-CQJrAt7M.css" class="" /><link rel="stylesheet" href="./build/assets/theme-default-Cxcx__Ek.css" class="" /><link rel="stylesheet" href="./build/assets/demo-6u0bvWa0.css" class="" />
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+      type="text/css"/>
+<style>
+    body {
+        font-family: Vazirmatn, sans-serif !important;
+    }
+
+    .apexcharts-canvas {
+        font-family: Vazirmatn, sans-serif !important;
+    }
+
+    .apexcharts-canvas * {
+        font-family: Vazirmatn, sans-serif !important;
+    }
+
+    .swal2-modal.swal2-popup{
+        font-family: Vazirmatn, sans-serif !important;}
+</style>
+
+<link rel="preload" as="style" href="./build/assets/node-waves-D5r9FyLK.css" /><link rel="preload" as="style" href="./build/assets/perfect-scrollbar-BFWrbuJ3.css" /><link rel="preload" as="style" href="./build/assets/typeahead-BNPhPAJc.css" /><link rel="stylesheet" href="./build/assets/node-waves-D5r9FyLK.css" class="" /><link rel="stylesheet" href="./build/assets/perfect-scrollbar-BFWrbuJ3.css" class="" /><link rel="stylesheet" href="./build/assets/typeahead-BNPhPAJc.css" class="" />
+<!-- Vendor Styles -->
+  <link rel="preload" as="style" href="./build/assets/datatables-BuVAYmcU.css" /><link rel="preload" as="style" href="./build/assets/responsive-BDP7KKhC.css" /><link rel="preload" as="style" href="./build/assets/buttons-C1YwFnDf.css" /><link rel="preload" as="style" href="./build/assets/form-validation-aYcniFyT.css" /><link rel="stylesheet" href="./build/assets/datatables-BuVAYmcU.css" class="" /><link rel="stylesheet" href="./build/assets/responsive-BDP7KKhC.css" class="" /><link rel="stylesheet" href="./build/assets/buttons-C1YwFnDf.css" class="" /><link rel="stylesheet" href="./build/assets/form-validation-aYcniFyT.css" class="" />
+
+<!-- Page Styles -->
+
+    <!-- Include Scripts for customizer, helper, analytics, config -->
+    <!-- $isFront is used to append the front layout scriptsIncludes only on the front layout otherwise the variable will be blank -->
+    <!-- laravel style -->
+<link rel="modulepreload" href="./build/assets/helpers-_-uALpVs.js" /><script type="module" src="./build/assets/helpers-_-uALpVs.js"></script><!-- beautify ignore:start -->
+  <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+  <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+  <link rel="preload" as="style" href="./build/assets/template-customizer-CWAkRRZX.css" /><link rel="modulepreload" href="./build/assets/template-customizer-BrY6p65h.js" /><link rel="stylesheet" href="./build/assets/template-customizer-CWAkRRZX.css" /><script type="module" src="./build/assets/template-customizer-BrY6p65h.js"></script>
+  <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+  <link rel="modulepreload" href="./build/assets/config-BPFTBIYD.js" /><script type="module" src="./build/assets/config-BPFTBIYD.js"></script>
+<script type="module">
+  window.templateCustomizer = new TemplateCustomizer({
+    cssPath: '',
+    themesPath: '',
+    defaultStyle: "light",
+    defaultShowDropdownOnHover: "1", // true/false (for horizontal layout only)
+    displayCustomizer: "",
+    lang: 'en',
+    pathResolver: function(path) {
+      var resolvedPaths = {
+        // Core stylesheets
+                  'core.scss': './build/assets/core-CQJrAt7M.css',
+          'core-dark.scss': './build/assets/core-dark-34gZEymh.css',
+
+        // Themes
+                  'theme-default.scss': './build/assets/theme-default-Cxcx__Ek.css',
+          'theme-default-dark.scss': './build/assets/theme-default-dark-v7jxbwTE.css',
+                  'theme-bordered.scss': './build/assets/theme-bordered-BZ7bzVKY.css',
+          'theme-bordered-dark.scss': './build/assets/theme-bordered-dark-BlrgrSc4.css',
+                  'theme-semi-dark.scss': './build/assets/theme-semi-dark-mVbzRwK6.css',
+          'theme-semi-dark-dark.scss': './build/assets/theme-semi-dark-dark-CtFJpf3N.css',
+              }
+      return resolvedPaths[path] || path;
+    },
+    'controls': ["rtl","style","headerType","contentLayout","layoutCollapsed","layoutNavbarOptions","themes"],
+  });
+</script>
+</head>
+
+<body>
+
+
+<!-- Layout Content -->
+<div class="layout-wrapper layout-navbar-full layout-horizontal layout-without-menu">
+  <div class="layout-container">
+
+    <!-- BEGIN: Navbar-->
+        <!-- Navbar -->
+    <nav class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+    <div class="container-xxl">
+
+      <!--  Brand demo (display only for navbar-full and hide on below xl) -->
+            <div class="navbar-brand app-brand demo d-none d-xl-flex py-0 me-4">
+        <a href="/" class="app-brand-link gap-2">
+          <span class="app-brand-logo demo">
+            <svg width="32" height="20" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.00172773 0V6.85398C0.00172773 6.85398 -0.133178 9.01207 1.98092 10.8388L13.6912 21.9964L19.7809 21.9181L18.8042 9.88248L16.4951 7.17289L9.23799 0H0.00172773Z" fill="#2aba9c" />
+  <path opacity="0.06" fill-rule="evenodd" clip-rule="evenodd" d="M7.69824 16.4364L12.5199 3.23696L16.5541 7.25596L7.69824 16.4364Z" fill="#161616" />
+  <path opacity="0.06" fill-rule="evenodd" clip-rule="evenodd" d="M8.07751 15.9175L13.9419 4.63989L16.5849 7.28475L8.07751 15.9175Z" fill="#161616" />
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77295 16.3566L23.6563 0H32V6.88383C32 6.88383 31.8262 9.17836 30.6591 10.4057L19.7824 22H13.6938L7.77295 16.3566Z" fill="#2aba9c" />
+</svg>
+          </span>
+          <span class="app-brand-text demo menu-text fw-bold">ای سنج</span>
+        </a>
+      </div>
+
+      <!-- ! Not required for layout-without-menu -->
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none  ">
+        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+          <i class="ti ti-menu-2 ti-sm"></i>
+        </a>
+      </div>
+
+      <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+
+                <!-- Style Switcher -->
+        <div class="navbar-nav align-items-center">
+          <div class="nav-item dropdown-style-switcher dropdown me-2 me-xl-0">
+            <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+              <i class='ti ti-md'></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-start dropdown-styles">
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);" data-theme="light">
+                  <span class="align-middle"><i class='ti ti-sun me-2'></i>روشن</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);" data-theme="dark">
+                  <span class="align-middle"><i class="ti ti-moon me-2"></i>تاریک</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);" data-theme="system">
+                  <span class="align-middle"><i class="ti ti-device-desktop me-2"></i>سیستمی</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--/ Style Switcher -->
+
+        <ul class="navbar-nav flex-row align-items-center ms-auto">
+
+          <!-- User -->
+          <li class="nav-item navbar-dropdown dropdown-user dropdown">
+            <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+              <div class="avatar avatar-online">
+                <img src="./assets/img/avatars/1.png" alt class="h-auto rounded-circle">
+              </div>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0 me-3">
+                      <div class="avatar avatar-online">
+                        <img src="./assets/img/avatars/1.png" alt class="h-auto rounded-circle">
+                      </div>
+                    </div>
+                    <div class="flex-grow-1">
+                      <span class="fw-medium d-block">
+                                                محمدرضا مختاری
+                                              </span>
+                      <small class="text-muted">مدیر سیستم</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <div class="dropdown-divider"></div>
+              </li>
+              <li>
+                <a class="dropdown-item" href="http://localhost/account/profile">
+                  <i class="ti ti-user-check me-2 ti-sm"></i>
+                  <span class="align-middle">پروفایل من</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);">
+                  <span class="d-flex align-items-center align-middle">
+                    <i class="flex-shrink-0 ti ti-credit-card me-2 ti-sm"></i>
+                    <span class="flex-grow-1 align-middle">صورت حساب</span>
+                    <span class="flex-shrink-0 badge badge-center rounded-pill bg-label-danger w-px-20 h-px-20">2</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <div class="dropdown-divider"></div>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/auth/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                  <i class='ti ti-logout me-2'></i>
+                  <span class="align-middle">خروج از حساب</span>
+                </a>
+              </li>
+              <form method="POST" id="logout-form" action="/auth/logout">
+                <input type="hidden" name="_token" value="xjDtNJMz8gMcr6IlU2sebmZuNWu0l4BZaLqlUtmH" autocomplete="off">              </form>
+            </ul>
+          </li>
+          <!--/ User -->
+        </ul>
+      </div>
+
+        </nav>
+  <!-- / Navbar -->
+        <!-- END: Navbar-->
+
+
+    <!-- Layout page -->
+    <div class="layout-page">
+      <!-- Content wrapper -->
+      <div class="content-wrapper">
+
+                <!-- Horizontal Menu -->
+<aside id="layout-menu" class="layout-menu-horizontal menu-horizontal  menu bg-menu-theme flex-grow-0">
+    <div class="container-xxl d-flex h-100">
+        <ul class="menu-inner">
+
+
+
+
+                <li class="menu-item ">
+                    <a href="/"
+                       class="menu-link"
+                       >
+                                                    <i class="menu-icon tf-icons ti ti-smart-home"></i>
+                                                <div>پیشخوان</div>
+                    </a>
+
+
+                                    </li>
+
+
+
+
+                <li class="menu-item ">
+                    <a href="javascript:void(0);"
+                       class="menu-link menu-toggle"
+                       >
+                                                    <i class="menu-icon tf-icons ti ti-users"></i>
+                                                <div>کاربران</div>
+                    </a>
+
+
+                                            <ul class="menu-sub">
+
+
+
+      <li class="menu-item ">
+        <a href="http://localhost/users/create" class="menu-link" >
+                    <div>ثبت کاربر جدید</div>
+                  </a>
+
+
+              </li>
+
+
+
+      <li class="menu-item ">
+        <a href="http://localhost/users" class="menu-link" >
+                    <div>لیست کاربران</div>
+                  </a>
+
+
+              </li>
+      </ul>
+                                    </li>
+
+
+
+
+                <li class="menu-item active">
+                    <a href="javascript:void(0);"
+                       class="menu-link menu-toggle"
+                       >
+                                                    <i class="menu-icon tf-icons ti ti-settings"></i>
+                                                <div>سطوح دسترسی</div>
+                    </a>
+
+
+                                            <ul class="menu-sub">
+
+
+
+      <li class="menu-item ">
+        <a href="http://localhost/acl/roles" class="menu-link" >
+                    <div>لیست نقش ها</div>
+                  </a>
+
+
+              </li>
+
+
+
+      <li class="menu-item active">
+        <a href="http://localhost/acl/permissions" class="menu-link" >
+                    <div>لیست مجوز ها</div>
+                  </a>
+
+
+              </li>
+      </ul>
+                                    </li>
+                    </ul>
+    </div>
+</aside>
+<!--/ Horizontal Menu -->
+
+        <!-- Content -->
+                  <div class="container-xxl flex-grow-1 container-p-y">
+
+              <h4 class="mb-4">لیست دسترسی‌ها</h4>
+
+  <p class="mb-4">هر دسته (پایه، حرفه‌ای، و کسب‌وکار) شامل چهار نقش از پیش تعریف‌شده‌ی زیر است.</p>
+
+  <div class="card">
+    <div class="card-datatable table-responsive">
+      <table class="datatables-permissions table border-top">
+        <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th>نام</th>
+          <th>اختصاص داده‌شده به</th>
+          <th>تاریخ ایجاد</th>
+          <th>اقدامات</th>
+        </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+
+  <!-- Add Permission Modal -->
+<div class="modal fade" id="addPermissionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-3 p-md-5">
+            <button type="button" class="btn-close btn-pinned" data-bs-dismiss="modal" aria-label="بستن"></button>
+            <div class="modal-body">
+                <div class="text-center mb-4">
+                    <h3 class="mb-2">افزودن دسترسی جدید</h3>
+                    <p class="text-muted">دسترسی‌هایی که می‌توانید به کاربران خود اختصاص دهید.</p>
+                </div>
+                <form id="addPermissionForm" class="row" onsubmit="return false">
+                    <div class="col-12 mb-3">
+                        <label class="form-label" for="modalPermissionName">نام دسترسی</label>
+                        <input type="text" id="modalPermissionName" name="modalPermissionName" class="form-control" placeholder="نام دسترسی" autofocus />
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="corePermission" />
+                            <label class="form-check-label" for="corePermission">
+                                تنظیم به عنوان دسترسی اصلی
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center demo-vertical-spacing">
+                        <button type="submit" class="btn btn-primary me-sm-3 me-1">ایجاد دسترسی</button>
+                        <button type="reset" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="بستن">لغو</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ Add Permission Modal -->
+  <!-- Edit Permission Modal -->
+<div class="modal fade" id="editPermissionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-3 p-md-5">
+            <button type="button" class="btn-close btn-pinned" data-bs-dismiss="modal" aria-label="بستن"></button>
+            <div class="modal-body">
+                <div class="text-center mb-4">
+                    <h3 class="mb-2">ویرایش دسترسی</h3>
+                    <p class="text-muted">دسترسی را مطابق نیاز خود ویرایش کنید.</p>
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    <h6 class="alert-heading mb-2">هشدار</h6>
+                    <p class="mb-0">با ویرایش نام دسترسی، ممکن است عملکرد دسترسی‌های سیستم مختل شود. لطفاً قبل از ادامه، از این کار کاملاً مطمئن باشید.</p>
+                </div>
+                <form id="editPermissionForm" class="row" onsubmit="return false">
+                    <div class="col-sm-9">
+                        <label class="form-label" for="editPermissionName">نام دسترسی</label>
+                        <input type="text" id="editPermissionName" name="editPermissionName" class="form-control" placeholder="نام دسترسی" tabindex="-1" />
+                    </div>
+                    <div class="col-sm-3 mb-3">
+                        <label class="form-label invisible d-none d-sm-inline-block">دکمه</label>
+                        <button type="submit" class="btn btn-primary mt-1 mt-sm-0">به‌روزرسانی</button>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="editCorePermission" />
+                            <label class="form-check-label" for="editCorePermission">
+                                تنظیم به عنوان دسترسی اصلی
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ Edit Permission Modal -->
+
+          </div>
+          <!-- / Content -->
+
+          <!-- Footer -->
+                    <footer class="content-footer footer bg-footer-theme">
+    <div class="container-xxl"></div>
+</footer>
+                    <!-- / Footer -->
+          <div class="content-backdrop fade"></div>
+        </div>
+        <!--/ Content wrapper -->
+      </div>
+      <!-- / Layout page -->
+    </div>
+    <!-- / Layout Container -->
+
+        <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+        <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
+  </div>
+  <!-- / Layout wrapper -->
+  <!--/ Layout Content -->
+
+
+<!-- Include Scripts -->
+<!-- $isFront is used to append the front layout scripts only on the front layout otherwise the variable will be blank -->
+<!-- BEGIN: Vendor JS-->
+
+<link rel="modulepreload" href="./build/assets/jquery-CbdDuLi-.js" /><link rel="modulepreload" href="./build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" href="./build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="./build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" href="./build/assets/popper-DNZnuk_L.js" /><link rel="modulepreload" href="./build/assets/bootstrap-DYsJcDS3.js" /><link rel="modulepreload" href="./build/assets/node-waves-CXGWVwgi.js" /><link rel="modulepreload" href="./build/assets/perfect-scrollbar-CLUWhEAQ.js" /><link rel="modulepreload" href="./build/assets/hammer-DbFOON0O.js" /><link rel="modulepreload" href="./build/assets/typeahead-BKwBoP4T.js" /><link rel="modulepreload" href="./build/assets/menu-CY9lYqyY.js" /><script type="module" src="./build/assets/jquery-CbdDuLi-.js"></script><script type="module" src="./build/assets/popper-DNZnuk_L.js"></script><script type="module" src="./build/assets/bootstrap-DYsJcDS3.js"></script><script type="module" src="./build/assets/node-waves-CXGWVwgi.js"></script><script type="module" src="./build/assets/perfect-scrollbar-CLUWhEAQ.js"></script><script type="module" src="./build/assets/hammer-DbFOON0O.js"></script><script type="module" src="./build/assets/typeahead-BKwBoP4T.js"></script><script type="module" src="./build/assets/menu-CY9lYqyY.js"></script>
+  <link rel="modulepreload" href="./build/assets/datatables-bootstrap5-B13p51pT.js" /><link rel="modulepreload" href="./build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="./build/assets/_commonjs-dynamic-modules-TDtrdbi3.js" /><link rel="modulepreload" href="./build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" href="./build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" href="./build/assets/popular-DxzY11pE.js" /><link rel="modulepreload" href="./build/assets/bootstrap5-DjMKukTX.js" /><link rel="modulepreload" href="./build/assets/index-D_6hAncj.js" /><link rel="modulepreload" href="./build/assets/auto-focus-BizrJr_R.js" /><script type="module" src="./build/assets/datatables-bootstrap5-B13p51pT.js"></script><script type="module" src="./build/assets/popular-DxzY11pE.js"></script><script type="module" src="./build/assets/bootstrap5-DjMKukTX.js"></script><script type="module" src="./build/assets/auto-focus-BizrJr_R.js"></script><!-- END: Page Vendor JS-->
+<!-- BEGIN: Theme JS-->
+<link rel="modulepreload" href="./build/assets/main-B6SyIOWI.js" /><script type="module" src="./build/assets/main-B6SyIOWI.js"></script>
+<!-- END: Theme JS-->
+<!-- Pricing Modal JS-->
+<!-- END: Pricing Modal JS-->
+<!-- BEGIN: Page JS-->
+  <link rel="modulepreload" href="./build/assets/app-access-permission-CZ6OMmT4.js" /><link rel="modulepreload" href="./build/assets/modal-add-permission-De85uL8l.js" /><link rel="modulepreload" href="./build/assets/modal-edit-permission-DncbZe6x.js" /><script type="module" src="./build/assets/app-access-permission-CZ6OMmT4.js"></script><script type="module" src="./build/assets/modal-add-permission-De85uL8l.js"></script><script type="module" src="./build/assets/modal-edit-permission-DncbZe6x.js"></script><!-- END: Page JS-->
+
+</body>
+
+</html>
