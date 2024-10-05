@@ -5,13 +5,12 @@
 <!-- Page Scripts -->
 
 
-
 <!DOCTYPE html>
 
 <html lang="en"
       class="light-style layout-compact  layout-menu-fixed     "
       dir="rtl" data-theme="theme-default"
-      data-assets-path="./"/buiets/" data-base-url="/" data-framework="laravel"
+      data-assets-path="./assets/" data-base-url="/" data-framework="laravel"
       data-template="horizontal-menu-theme-default-light">
 
 <head>
@@ -20,7 +19,7 @@
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
 
     <title>
-        لیست درخواست‌دهنده ها |
+        ثبت کاربر جدید |
         ای سنج
     </title>
     <meta name="description" content="ای سنج (esanj) بستری مناسب برای کلیه ارزیابی های  آنلاین روانشناختی اعم از تست های هوش، استعداد، شخصیت شناسی و ... می باشد."/>
@@ -28,7 +27,7 @@
     <!-- laravel CRUD token -->
     <meta name="csrf-token" content="xjDtNJMz8gMcr6IlU2sebmZuNWu0l4BZaLqlUtmH">
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./"/buiets/img/favicon/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico"/>
 
     <!-- Include Styles -->
     <!-- $isFront is used to append the front layout styles only on the front layout otherwise the variable will be blank -->
@@ -40,8 +39,8 @@
     href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
 
-<link rel="preload" as="style" href="./build/assets/tabler-icons-XUw5yIc1.css" /><link rel="preload" as="style" href="./build/assets/fontawesome-Cqv41d_a.css" /><link rel="preload" as="style" href="./build/assets/flag-icons-2QKiQDtI.css" /><link rel="stylesheet" href="./build/assets/tabler-icons-XUw5yIc1.css" class="" /><link rel="stylesheet" href="./build/assets/fontawesome-Cqv41d_a.css" class="" /><link rel="stylesheet" href="./build/assets/flag-icons-2QKiQDtI.css" class="" /><!-- Core CSS -->
-<link rel="preload" as="style" href="./build/assets/core-CQJrAt7M.css" /><link rel="preload" as="style" href="./build/assets/theme-default-Cxcx__Ek.css" /><link rel="preload" as="style" href="./build/assets/demo-6u0bvWa0.css" /><link rel="stylesheet" href="./build/assets/core-CQJrAt7M.css" class="" /><link rel="stylesheet" href="./build/assets/theme-default-Cxcx__Ek.css" class="" /><link rel="stylesheet" href="./build/assets/demo-6u0bvWa0.css" class="" />
+<link rel="preload" as="style" href="../build/assets/tabler-icons-XUw5yIc1.css" /><link rel="preload" as="style" href="../build/assets/fontawesome-Cqv41d_a.css" /><link rel="preload" as="style" href="../build/assets/flag-icons-2QKiQDtI.css" /><link rel="stylesheet" href="../build/assets/tabler-icons-XUw5yIc1.css" class="" /><link rel="stylesheet" href="../build/assets/fontawesome-Cqv41d_a.css" class="" /><link rel="stylesheet" href="../build/assets/flag-icons-2QKiQDtI.css" class="" /><!-- Core CSS -->
+<link rel="preload" as="style" href="../build/assets/core-CQJrAt7M.css" /><link rel="preload" as="style" href="../build/assets/theme-default-Cxcx__Ek.css" /><link rel="preload" as="style" href="../build/assets/demo-6u0bvWa0.css" /><link rel="stylesheet" href="../build/assets/core-CQJrAt7M.css" class="" /><link rel="stylesheet" href="../build/assets/theme-default-Cxcx__Ek.css" class="" /><link rel="stylesheet" href="../build/assets/demo-6u0bvWa0.css" class="" />
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
       type="text/css"/>
 <style>
@@ -61,21 +60,21 @@
         font-family: Vazirmatn, sans-serif !important;}
 </style>
 
-<link rel="preload" as="style" href="./build/assets/node-waves-D5r9FyLK.css" /><link rel="preload" as="style" href="./build/assets/perfect-scrollbar-BFWrbuJ3.css" /><link rel="preload" as="style" href="./build/assets/typeahead-BNPhPAJc.css" /><link rel="stylesheet" href="./build/assets/node-waves-D5r9FyLK.css" class="" /><link rel="stylesheet" href="./build/assets/perfect-scrollbar-BFWrbuJ3.css" class="" /><link rel="stylesheet" href="./build/assets/typeahead-BNPhPAJc.css" class="" />
+<link rel="preload" as="style" href="../build/assets/node-waves-D5r9FyLK.css" /><link rel="preload" as="style" href="../build/assets/perfect-scrollbar-BFWrbuJ3.css" /><link rel="preload" as="style" href="../build/assets/typeahead-BNPhPAJc.css" /><link rel="stylesheet" href="../build/assets/node-waves-D5r9FyLK.css" class="" /><link rel="stylesheet" href="../build/assets/perfect-scrollbar-BFWrbuJ3.css" class="" /><link rel="stylesheet" href="../build/assets/typeahead-BNPhPAJc.css" class="" />
 <!-- Vendor Styles -->
-    <link rel="preload" as="style" href="./build/assets/datatables-BuVAYmcU.css" /><link rel="preload" as="style" href="./build/assets/responsive-BDP7KKhC.css" /><link rel="stylesheet" href="./build/assets/datatables-BuVAYmcU.css" class="" /><link rel="stylesheet" href="./build/assets/responsive-BDP7KKhC.css" class="" />
+    <link rel="preload" as="style" href="../build/assets/select2-vRDDMKHn.css" /><link rel="stylesheet" href="../build/assets/select2-vRDDMKHn.css" class="" />
 
 <!-- Page Styles -->
 
     <!-- Include Scripts for customizer, helper, analytics, config -->
     <!-- $isFront is used to append the front layout scriptsIncludes only on the front layout otherwise the variable will be blank -->
     <!-- laravel style -->
-<link rel="modulepreload" href="./build/assets/helpers-_-uALpVs.js" /><script type="module" src="./build/assets/helpers-_-uALpVs.js"></script><!-- beautify ignore:start -->
+<link rel="modulepreload" href="../build/assets/helpers-_-uALpVs.js" /><script type="module" src="../build/assets/helpers-_-uALpVs.js"></script><!-- beautify ignore:start -->
   <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
   <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-  <link rel="preload" as="style" href="./build/assets/template-customizer-CWAkRRZX.css" /><link rel="modulepreload" href="./build/assets/template-customizer-BrY6p65h.js" /><link rel="stylesheet" href="./build/assets/template-customizer-CWAkRRZX.css" /><script type="module" src="./build/assets/template-customizer-BrY6p65h.js"></script>
+  <link rel="preload" as="style" href="../build/assets/template-customizer-CWAkRRZX.css" /><link rel="modulepreload" href="../build/assets/template-customizer-BrY6p65h.js" /><link rel="stylesheet" href="../build/assets/template-customizer-CWAkRRZX.css" /><script type="module" src="../build/assets/template-customizer-BrY6p65h.js"></script>
   <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-  <link rel="modulepreload" href="./build/assets/config-BPFTBIYD.js" /><script type="module" src="./build/assets/config-BPFTBIYD.js"></script>
+  <link rel="modulepreload" href="../build/assets/config-BPFTBIYD.js" /><script type="module" src="../build/assets/config-BPFTBIYD.js"></script>
 <script type="module">
   window.templateCustomizer = new TemplateCustomizer({
     cssPath: '',
@@ -87,16 +86,16 @@
     pathResolver: function(path) {
       var resolvedPaths = {
         // Core stylesheets
-                  'core.scss': '/build/assets/core-CQJrAt7M.css',
-          'core-dark.scss': '/build/assets/core-dark-34gZEymh.css',
+                  'core.scss': './build/assets/core-CQJrAt7M.css',
+          'core-dark.scss': './build/assets/core-dark-34gZEymh.css',
 
         // Themes
-                  'theme-default.scss': '/build/assets/theme-default-Cxcx__Ek.css',
-          'theme-default-dark.scss': '/build/assets/theme-default-dark-v7jxbwTE.css',
-                  'theme-bordered.scss': '/build/assets/theme-bordered-BZ7bzVKY.css',
-          'theme-bordered-dark.scss': '/build/assets/theme-bordered-dark-BlrgrSc4.css',
-                  'theme-semi-dark.scss': '/build/assets/theme-semi-dark-mVbzRwK6.css',
-          'theme-semi-dark-dark.scss': '/build/assets/theme-semi-dark-dark-CtFJpf3N.css',
+                  'theme-default.scss': './build/assets/theme-default-Cxcx__Ek.css',
+          'theme-default-dark.scss': './build/assets/theme-default-dark-v7jxbwTE.css',
+                  'theme-bordered.scss': './build/assets/theme-bordered-BZ7bzVKY.css',
+          'theme-bordered-dark.scss': './build/assets/theme-bordered-dark-BlrgrSc4.css',
+                  'theme-semi-dark.scss': './build/assets/theme-semi-dark-mVbzRwK6.css',
+          'theme-semi-dark-dark.scss': './build/assets/theme-semi-dark-dark-CtFJpf3N.css',
               }
       return resolvedPaths[path] || path;
     },
@@ -119,7 +118,7 @@
 
       <!--  Brand demo (display only for navbar-full and hide on below xl) -->
             <div class="navbar-brand app-brand demo d-none d-xl-flex py-0 me-4">
-        <a href="/" class="app-brand-link gap-2">
+        <a href="./dashboard-auth.html" class="app-brand-link gap-2">
           <span class="app-brand-logo demo">
             <svg width="32" height="20" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0.00172773 0V6.85398C0.00172773 6.85398 -0.133178 9.01207 1.98092 10.8388L13.6912 21.9964L19.7809 21.9181L18.8042 9.88248L16.4951 7.17289L9.23799 0H0.00172773Z" fill="#2aba9c" />
@@ -174,7 +173,7 @@
           <li class="nav-item navbar-dropdown dropdown-user dropdown">
             <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
               <div class="avatar avatar-online">
-                <img src="./"/buiets/img/avatars/1.png" alt class="h-auto rounded-circle">
+                <img src="../assets/img/avatars/1.png" alt class="h-auto rounded-circle">
               </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
@@ -183,7 +182,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0 me-3">
                       <div class="avatar avatar-online">
-                        <img src="./"/buiets/img/avatars/1.png" alt class="h-auto rounded-circle">
+                        <img src="../assets/img/avatars/1.png" alt class="h-auto rounded-circle">
                       </div>
                     </div>
                     <div class="flex-grow-1">
@@ -249,7 +248,7 @@
 
 
                 <li class="menu-item ">
-                    <a href="/"
+                    <a href="./dashboard-auth.html"
                        class="menu-link"
                        >
                                                     <i class="menu-icon tf-icons ti ti-smart-home"></i>
@@ -262,68 +261,32 @@
 
 
 
-                <li class="menu-item ">
-                    <a href="javascript:void(0);"
-                       class="menu-link menu-toggle"
-                       >
-                                                    <i class="menu-icon tf-icons ti ti-cash"></i>
-                                                <div>درگاه</div>
-                    </a>
-
-
-                                            <ul class="menu-sub">
-
-
-
-      <li class="menu-item ">
-        <a href="http://localhost/payment/gateways/create" class="menu-link" >
-                    <div>ایجاد درگاه جدید</div>
-                  </a>
-
-
-              </li>
-
-
-
-      <li class="menu-item ">
-        <a href="http://localhost/payment/gateways" class="menu-link" >
-                    <div>لیست درگاه ها</div>
-                  </a>
-
-
-              </li>
-      </ul>
-                                    </li>
-
-
-
-
                 <li class="menu-item active">
                     <a href="javascript:void(0);"
                        class="menu-link menu-toggle"
                        >
                                                     <i class="menu-icon tf-icons ti ti-users"></i>
-                                                <div>درخواست دهنده</div>
+                                                <div>کاربران</div>
                     </a>
 
 
                                             <ul class="menu-sub">
-
-
-
-      <li class="menu-item ">
-        <a href="http://localhost/payment/merchants/create" class="menu-link" >
-                    <div>ثبت درخواست‌دهنده جدید</div>
-                  </a>
-
-
-              </li>
 
 
 
       <li class="menu-item active">
-        <a href="http://localhost/payment/merchants" class="menu-link" >
-                    <div>لیست درخواست‌دهنده ها</div>
+        <a href="http://localhost/users/create" class="menu-link" >
+                    <div>ثبت کاربر جدید</div>
+                  </a>
+
+
+              </li>
+
+
+
+      <li class="menu-item ">
+        <a href="http://localhost/users" class="menu-link" >
+                    <div>لیست کاربران</div>
                   </a>
 
 
@@ -337,74 +300,34 @@
                 <li class="menu-item ">
                     <a href="javascript:void(0);"
                        class="menu-link menu-toggle"
-                       >
-                                                    <i class="menu-icon tf-icons ti ti-receipt"></i>
-                                                <div>تراکنش ها</div>
-                    </a>
-
-
-                                            <ul class="menu-sub">
-
-
-
-      <li class="menu-item ">
-        <a href="http://localhost/payment/transactions" class="menu-link" >
-                    <div>لیست تراکنش ها</div>
-                  </a>
-
-
-              </li>
-      </ul>
-                                    </li>
-
-
-
-
-                <li class="menu-item ">
-                    <a href="javascript:void(0);"
-                       class="menu-link menu-toggle"
-                       >
-                                                    <i class="menu-icon tf-icons ti ti-report-analytics"></i>
-                                                <div>گزارشات</div>
-                    </a>
-
-
-                                            <ul class="menu-sub">
-
-
-
-      <li class="menu-item ">
-        <a href="http://localhost/report/payment-service" class="menu-link" >
-                    <div>گزارشات سرویس پرداخت</div>
-                  </a>
-
-
-              </li>
-
-
-
-      <li class="menu-item ">
-        <a href="http://localhost/payment/logs" class="menu-link" >
-                    <div>لاگ سیستم(خطا ها)</div>
-                  </a>
-
-
-              </li>
-      </ul>
-                                    </li>
-
-
-
-
-                <li class="menu-item ">
-                    <a href="http://localhost/settings"
-                       class="menu-link"
                        >
                                                     <i class="menu-icon tf-icons ti ti-settings"></i>
-                                                <div>تنظیمات</div>
+                                                <div>سطوح دسترسی</div>
                     </a>
 
 
+                                            <ul class="menu-sub">
+
+
+
+      <li class="menu-item ">
+        <a href="http://localhost/acl/roles" class="menu-link" >
+                    <div>لیست نقش ها</div>
+                  </a>
+
+
+              </li>
+
+
+
+      <li class="menu-item ">
+        <a href="http://localhost/acl/permissions" class="menu-link" >
+                    <div>لیست مجوز ها</div>
+                  </a>
+
+
+              </li>
+      </ul>
                                     </li>
                     </ul>
     </div>
@@ -415,14 +338,110 @@
                   <div class="container-xxl flex-grow-1 container-p-y">
 
                 <h4 class="py-3 mb-4">
-        <span class="fw-light">لیست درخواست‌دهنده ها</span>
+        <span class="fw-light">ثبت کاربر جدید</span>
     </h4>
 
-    <div class="card">
-        <div class="card-datatable text-nowrap px-2">
-            <table class="datatables-ajax table"></table>
+    <form action="" method="POST" class="needs-validation" novalidate>
+        <div class="card">
+            <div class="card-body">
+
+                <!-- first name -->
+                <div class="form-group mb-3">
+                    <label for="first_name" class="pb-1">نام</label>
+                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="نام را وارد کنید" required>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- last name -->
+                <div class="form-group mb-3">
+                    <label for="last_name" class="pb-1">نام خانوادگی</label>
+                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="نام خانوادگی را وارد کنید" required>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- email -->
+                <div class="form-group mb-3">
+                    <label for="email" class="pb-1">ایمیل</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="example@domain.com" required>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- phone -->
+                <div class="form-group mb-3">
+                    <label for="phone" class="pb-1">شماره تلفن</label>
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="+98 912 123 4567" required>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- company -->
+                <div class="form-group mb-3">
+                    <label for="company" class="pb-1">شرکت</label>
+                    <input type="text" name="company" id="company" class="form-control" placeholder="نام شرکت را وارد کنید">
+                </div>
+
+                <!-- country -->
+                <div class="form-group mb-3">
+                    <label for="country" class="pb-1">کشور</label>
+                    <select name="country" id="country" class="form-control select2" required>
+                        <option value="" disabled selected>انتخاب کنید</option>
+                        <option value="Iran">ایران</option>
+                        <option value="United States">ایالات متحده</option>
+                        <option value="Canada">کانادا</option>
+                        <option value="Germany">آلمان</option>
+                        <option value="France">فرانسه</option>
+                        <option value="United Kingdom">بریتانیا</option>
+                        <option value="Australia">استرالیا</option>
+                        <option value="Japan">ژاپن</option>
+                        <option value="South Korea">کره جنوبی</option>
+                        <option value="China">چین</option>
+                    </select>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- user role -->
+                <div class="form-group mb-3">
+                    <label for="user_role" class="pb-1">نقش کاربر</label>
+                    <select name="user_role" id="user_role" class="form-control" required>
+                        <option value="" disabled selected>انتخاب کنید</option>
+                        <option value="admin">مدیر</option>
+                        <option value="support">پشتیبان</option>
+                        <option value="author">نویسنده</option>
+                        <option value="basic_user">کاربر پایه</option>
+                    </select>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- subscription -->
+                <div class="form-group mb-3">
+                    <label for="subscription" class="pb-1">اشتراک</label>
+                    <select name="subscription" id="subscription" class="form-control" required>
+                        <option value="" disabled selected>انتخاب کنید</option>
+                        <option value="basic">پایه</option>
+                        <option value="team">تیمی</option>
+                        <option value="company">شرکتی</option>
+                        <option value="premium">ویژه</option>
+                    </select>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+                <!-- status -->
+                <div class="form-group mb-3">
+                    <label for="status" class="pb-1">وضعیت</label>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" name="status" id="status-switch" value="active" required checked>
+                        <label class="form-check-label" for="status-switch">فعال</label>
+                    </div>
+                    <div class="invalid-feedback">این فیلد الزامی است.</div>
+                </div>
+
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">تایید</button>
+                <a href=".." class="btn btn-secondary">انصراف</a>
+            </div>
         </div>
-    </div>
+    </form>
+
 
           </div>
           <!-- / Content -->
@@ -453,17 +472,15 @@
 <!-- $isFront is used to append the front layout scripts only on the front layout otherwise the variable will be blank -->
 <!-- BEGIN: Vendor JS-->
 
-<link rel="modulepreload" href="./build/assets/jquery-CbdDuLi-.js" /><link rel="modulepreload" href="./build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" href="./build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="./build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" href="./build/assets/popper-DNZnuk_L.js" /><link rel="modulepreload" href="./build/assets/bootstrap-DYsJcDS3.js" /><link rel="modulepreload" href="./build/assets/node-waves-CXGWVwgi.js" /><link rel="modulepreload" href="./build/assets/perfect-scrollbar-CLUWhEAQ.js" /><link rel="modulepreload" href="./build/assets/hammer-DbFOON0O.js" /><link rel="modulepreload" href="./build/assets/typeahead-BKwBoP4T.js" /><link rel="modulepreload" href="./build/assets/menu-CY9lYqyY.js" /><script type="module" src="./build/assets/jquery-CbdDuLi-.js"></script><script type="module" src="./build/assets/popper-DNZnuk_L.js"></script><script type="module" src="./build/assets/bootstrap-DYsJcDS3.js"></script><script type="module" src="./build/assets/node-waves-CXGWVwgi.js"></script><script type="module" src="./build/assets/perfect-scrollbar-CLUWhEAQ.js"></script><script type="module" src="./build/assets/hammer-DbFOON0O.js"></script><script type="module" src="./build/assets/typeahead-BKwBoP4T.js"></script><script type="module" src="./build/assets/menu-CY9lYqyY.js"></script>
-    <link rel="modulepreload" href="./build/assets/datatables-bootstrap5-B13p51pT.js" /><link rel="modulepreload" href="./build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="./build/assets/_commonjs-dynamic-modules-TDtrdbi3.js" /><link rel="modulepreload" href="./build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" href="./build/assets/jquery-Czc5UB_B.js" /><script type="module" src="./build/assets/datatables-bootstrap5-B13p51pT.js"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/moment-jalaali@0.9.2/build/moment-jalaali.js"></script>
-<!-- END: Page Vendor JS-->
+<link rel="modulepreload" href="../build/assets/jquery-CbdDuLi-.js" /><link rel="modulepreload" href="../build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" href="../build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="../build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" href="../build/assets/popper-DNZnuk_L.js" /><link rel="modulepreload" href="../build/assets/bootstrap-DYsJcDS3.js" /><link rel="modulepreload" href="../build/assets/node-waves-CXGWVwgi.js" /><link rel="modulepreload" href="../build/assets/perfect-scrollbar-CLUWhEAQ.js" /><link rel="modulepreload" href="../build/assets/hammer-DbFOON0O.js" /><link rel="modulepreload" href="../build/assets/typeahead-BKwBoP4T.js" /><link rel="modulepreload" href="../build/assets/menu-CY9lYqyY.js" /><script type="module" src="../build/assets/jquery-CbdDuLi-.js"></script><script type="module" src="../build/assets/popper-DNZnuk_L.js"></script><script type="module" src="../build/assets/bootstrap-DYsJcDS3.js"></script><script type="module" src="../build/assets/node-waves-CXGWVwgi.js"></script><script type="module" src="../build/assets/perfect-scrollbar-CLUWhEAQ.js"></script><script type="module" src="../build/assets/hammer-DbFOON0O.js"></script><script type="module" src="../build/assets/typeahead-BKwBoP4T.js"></script><script type="module" src="../build/assets/menu-CY9lYqyY.js"></script>
+    <link rel="modulepreload" href="../build/assets/select2-Cf8QheUJ.js" /><link rel="modulepreload" href="../build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" href="../build/assets/jquery-Czc5UB_B.js" /><script type="module" src="../build/assets/select2-Cf8QheUJ.js"></script><!-- END: Page Vendor JS-->
 <!-- BEGIN: Theme JS-->
-<link rel="modulepreload" href="./build/assets/main-B6SyIOWI.js" /><script type="module" src="./build/assets/main-B6SyIOWI.js"></script>
+<link rel="modulepreload" href="../build/assets/main-B6SyIOWI.js" /><script type="module" src="../build/assets/main-B6SyIOWI.js"></script>
 <!-- END: Theme JS-->
 <!-- Pricing Modal JS-->
 <!-- END: Pricing Modal JS-->
 <!-- BEGIN: Page JS-->
-    <link rel="modulepreload" href="./build/assets/merchants-BILnOzIf.js" /><script type="module" src="./build/assets/merchants-BILnOzIf.js"></script><!-- END: Page JS-->
+<!-- END: Page JS-->
 
 </body>
 
